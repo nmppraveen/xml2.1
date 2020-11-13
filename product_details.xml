@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="product_details.xsl" ?>
+<product_details>
+<product>
+<name>1. APPLE</name>
+<price>INR 30</price>
+<description>An apple is an edible fruit produced by an apple tree. Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus!! </description>
+<sold>650</sold>
+</product>
+<product>
+<name>2. ORANGE</name>
+<price>INR 25</price>
+<description>The orange is the fruit of various citrus species in the family Rutaceae; it primarily refers to Citrus × sinensis, which is also called sweet orange!!</description>
+<sold>900</sold>
+</product>
+<product>
+<name>3. GRAPES</name>
+<price>INR 40</price>
+<description>A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis!!</description>
+<sold>900</sold>
+</product>
+<product>
+<name>4. PAPAYA</name>
+<price>INR 30</price>
+<description>The papaya, papaw, or pawpaw is the plant Carica papaya, one of the 22 accepted species in the genus Carica of the family Caricaceae!!</description>
+<sold>600</sold>
+</product>
+<product>
+<name>5. WATER MELON</name>
+<price>INR 50</price>
+<description>Watermelon is a plant species in the family Cucurbitaceae, a vine-like flowering plant originally domesticated in Africa!!</description>
+<sold>950</sold>
+</product>
+<product>
+<name>6. PINEAPPLE</name>
+<price>INR 75</price>
+<description>The pineapple is a tropical plant with an edible fruit and the most economically significant plant in the family Bromeliaceae!!</description>
+<sold>2000</sold>
+</product>
+<product>
+<name>7. TOMATO</name>
+<price>INR 40</price>
+<description>The tomato is the edible, often red berry of the plant Solanum lycopersicum, commonly known as a tomato plant.</description>
+<sold>2000</sold>
+</product>
+<product>
+<name>8. POTATO</name>
+<price>INR 50</price>
+<description>The potato is a root vegetable native to the Americas, a starchy tuber of the plant Solanum tuberosum, and the plant itself is a perennial in the nightshade family, Solanaceae!!</description>
+<sold>250</sold>
+</product>
+<product>
+<name>9. RADISH</name>
+<price>INR 25</price>
+<description>The radish belongs to the Cruciferae family and its scientific name is Raphanus sativus L!!</description>
+<sold>500</sold>
+</product>
+<product>
+<name>10. LADIES FINGER</name>
+<price>INR 45</price>
+<description>Okra or Okro, Abelmoschus esculentus, known in many English-speaking countries as ladies' fingers or ochro, is a flowering plant in the mallow family!!</description>
+<sold>700</sold>
+</product>
+<product>
+<name>11. MANGO</name>
+<price>INR 35</price>
+<description>A mango is a stone fruit produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit!!</description>
+<sold>750</sold>
+</product>
+<product>
+<name>12. PUMPKIN</name>
+<price>INR 50</price>
+<description>A pumpkin is a cultivar of winter squash that is round with smooth, slightly ribbed skin, and is most often deep yellow to orange in coloration. The thick shell contains the seeds and pulp.</description>
+<sold>300</sold>
+</product>
+</product_details>

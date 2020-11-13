@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#48C9B0 ;
+}
+img {
+  border: 5px solid black;
+}
+
+.flip-card {
+  background-color: transparent;
+  height: 300px;
+  perspective: 1000px;
+  width: 40%;
+  padding: 70px;
+  float: left;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+h1{
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+</style>
+</head>
+<body>
+
+<center><h1>XML ASSIGNMENT-2.1 N.M.P.PRAVEEN(18IT061)</h1></center>
+<center>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1> Product</h1>
+      <img src="https://d3cif2hu95s88v.cloudfront.net/live-site-2016/product-image/1Fruitbasketsproducts/fruits-basket-5-600x600.jpg" alt="Apple" width="200" height="200">
+    </div>
+    <div class="flip-card-back">
+    <a href="xml_dom.html"><button style="background-color:red;color:white;width:50%; height:200px;" ><h2> PRODUCT(XML WITH DOM) </h2></button></a> <!-- Button link -->
+    </div>
+  </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>Product Details</h1>
+      <img src="https://m.economictimes.com/thumb/msid-66115553,width-1200,height-900,resizemode-4,imgsize-961508/gettyimages-842928214.jpg" alt="Grapes" width="200" height="200">
+    </div>
+    <div class="flip-card-back">
+    <a href="product_details.xml"><button style="background-color:red;color:white;width:50%; height:200px;" ><h2> PRODUCT DETAILS (XML WITH XSLT) </h2></button></a> <!-- Button link -->
+    </div>
+  </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>JSON</h1>
+      <img src="https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/42236/versions/5/screenshot.jpg" alt="JSON" width="200" height="200">
+    </div>
+    <div class="flip-card-back">
+    <a href="json_parse.html"><button style="background-color:red;color:white;width:50%; height:200px;" ><h2>JSON & JSON Parse</h2></button></a> <!-- Button link -->
+    </div>
+  </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>XML-DTD and Schema</h1>
+      <img src="https://www.stylusstudio.com/images/screenshots/dtd_vs_xsd.gif" alt="DTD-Schema" width="300" height="200">
+    </div>
+    <div class="flip-card-back">
+    <a href="dtd_and_schema.html"><button style="background-color:red;color:white;width:50%; height:200px;" ><h2>DTD-Schema of XML files</h2></button></a> <!-- Button link -->
+    </div>
+  </div>
+</div>
+</center>
+
+</body>
+</html>

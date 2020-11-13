@@ -1,0 +1,11 @@
+  
+
+   {
+      "CATEGORY": "FRUITS",
+      "PRODUCT": "APPLE",
+      "VITAMIN": "A",
+      "CURRENCY": "INR",
+      "PRICE": "30",
+      "REVIEW": "8/10",
+      "PAYMENT": "COD / ONLINE PAYMENT"
+   }

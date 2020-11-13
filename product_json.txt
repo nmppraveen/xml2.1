@@ -1,0 +1,110 @@
+[
+   {
+      "CATEGORY": "FRUITS",
+      "PRODUCT": "APPLE",
+      "VITAMIN": "A",
+      "CURRENCY": "INR",
+      "PRICE": "30",
+      "REVIEW": "8/10",
+      "PAYMENT": "COD / ONLINE PAYMENT"
+   },
+   {
+      "CATEGORY": "FRUITS",
+      "PRODUCT": "ORANGE",
+      "VITAMIN": "B",
+      "CURRENCY": "INR",
+      "PRICE": "25",
+      "REVIEW": "9/10",
+      "PAYMENT": "COD / ONLINE PAYMENT"
+   },
+   {
+      "CATEGORY": "FRUITS",
+      "PRODUCT": "GRAPES",
+      "VITAMIN": "D",
+      "CURRENCY": "INR",
+      "PRICE": "40",
+      "REVIEW": "10/10",
+      "PAYMENT": "COD / ONLINE PAYMENT"
+   },
+   {
+      "CATEGORY": "FRUITS",
+      "PRODUCT": "PAPAYA",
+      "VITAMIN": "C",
+      "CURRENCY": "INR",
+      "PRICE": "30",
+      "REVIEW": "9/10",
+      "PAYMENT": "COD"
+   },
+   {
+      "CATEGORY": "FRUITS",
+      "PRODUCT": "WATER MELON",
+      "VITAMIN": "B",
+      "CURRENCY": "INR",
+      "PRICE": "50",
+      "REVIEW": "8/10",
+      "PAYMENT": "COD / ONLINE PAYMENT"
+   },
+   {
+      "CATEGORY": "FRUITS",
+      "PRODUCT": "PINEAPPLE",
+      "VITAMIN": "C",
+      "CURRENCY": "INR",
+      "PRICE": "75",
+      "REVIEW": "8/10",
+      "PAYMENT": "COD / ONLINE PAYMENT"
+   },
+   {
+      "CATEGORY": "VEGETABLES",
+      "PRODUCT": "TOMATO",
+      "VITAMIN": "A",
+      "CURRENCY": "INR",
+      "PRICE": "40",
+      "REVIEW": "9/10",
+      "PAYMENT": "COD / ONLINE PAYMENT"
+   },
+   {
+      "CATEGORY": "VEGETABLES",
+      "PRODUCT": "POTATO",
+      "VITAMIN": "D",
+      "CURRENCY": "INR",
+      "PRICE": "50",
+      "REVIEW": "8/10",
+      "PAYMENT": "COD / ONLINE PAYMENT"
+   },
+   {
+      "CATEGORY": "VEGETABLES",
+      "PRODUCT": "RADDISH",
+      "VITAMIN": "A",
+      "CURRENCY": "INR",
+      "PRICE": "25",
+      "REVIEW": "9/10",
+      "PAYMENT": "COD"
+   },
+   {
+      "CATEGORY": "VEGETABLES",
+      "PRODUCT": "LADIES FINGER",
+      "VITAMIN": "B",
+      "CURRENCY": "INR",
+      "PRICE": "45",
+      "REVIEW": "8/10",
+      "PAYMENT": "COD / ONLINE PAYMENT"
+   },
+   {
+      "CATEGORY": "VEGETABLES",
+      "PRODUCT": "MANGO",
+      "VITAMIN": "B",
+      "CURRENCY": "INR",
+      "PRICE": "35",
+      "REVIEW": "10/10",
+      "PAYMENT": "COD / ONLINE PAYMENT"
+   },
+   {
+      "CATEGORY": "VEGETABLES",
+      "PRODUCT": "PUMPKIN",
+      "VITAMIN": "C",
+      "CURRENCY": "INR",
+      "PRICE": "50",
+      "REVIEW": "9/10",
+      "PAYMENT": "COD / ONLINE PAYMENT"
+   }
+]

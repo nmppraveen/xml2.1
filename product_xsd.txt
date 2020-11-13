@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="CATALOG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="CD"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CATEGORY"/>
+        <xs:element ref="PRODUCT"/>
+        <xs:element ref="VITAMIN"/>
+        <xs:element ref="CURRENCY"/>
+        <xs:element ref="PRICE"/>
+        <xs:element ref="REVIEW"/>
+        <xs:element ref="PAYMENT"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CATEGORY" type="xs:NCName"/>
+  <xs:element name="PRODUCT" type="xs:string"/>
+  <xs:element name="VITAMIN" type="xs:NCName"/>
+  <xs:element name="CURRENCY" type="xs:NCName"/>
+  <xs:element name="PRICE" type="xs:integer"/>
+  <xs:element name="REVIEW" type="xs:string"/>
+  <xs:element name="PAYMENT" type="xs:string"/>
+</xs:schema>

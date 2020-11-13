@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color:#48C9B0 ;
+}
+img {
+  border: 5px solid black;
+}
+	.flip-card {
+  background-color: transparent;
+  height: 300px;
+  perspective: 1000px;
+  width: 40%;
+  padding: 70px;
+  float: left;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+</style>
+</head>
+<body>
+<center><h1 style="color:black">JSON-parse example(18IT061)</h1></center>
+<b>
+<h3 style="color : red"> Content in the single quotes are JSON parsed values!!</h3>
+</b>
+
+<p id="nmp"></p>
+
+<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var myObj = JSON.parse(this.responseText);
+    document.getElementById("nmp").innerHTML = "Hi This is an example of JSON-parser.The Category of the product " + "'" + myObj.CATEGORY  + "'" + ".The particular category has a product named " +  "'" + myObj.PRODUCT +  "'" + " It has vitamin  " +  "'" + myObj.VITAMIN +  "'" +".It has a price value of" + "'" + myObj.CURRENCY + myObj.PRICE + "'" + "with the review of " +  "'" + myObj.REVIEW +  "'" + " and has the payment facility - " +  "'" + myObj.PAYMENT +  "'" ;
+  }
+};
+xmlhttp.open("GET", "json_parse.txt", true);
+xmlhttp.send();
+</script>
+
+<img src="https://jsonformatter.org/img/json-parser.png" alt="JSOn-Parser" width="200" height="200">
+
+<h2 style="color : black">This is the file <a href="json_parse.txt">json_parse.txt</a> that has been parsed!!</h2></strong>
+
+<center><h1>JSON files</h1></center>
+<center>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>JSON-1</h1>
+      <img src="https://data.world/wp-content/uploads/2017/01/JSON.png" alt="JSON" width="200" height="200">
+    </div>
+    <div class="flip-card-back">
+    <a href="product_json.txt"><button style="background-color:red;color:white;width:50%; height:200px;" ><h2> PRODUCT(JSON)</h2></button></a> <!-- Button link -->
+    </div>
+  </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>JSON-2</h1>
+      <img src="https://miro.medium.com/max/2732/1*_SnS4SKdCQRnxtVdOlbmWA.png" alt="JSON-2" width="200" height="200">
+    </div>
+    <div class="flip-card-back">
+    <a href="product_details_json.txt"><button style="background-color:red;color:white;width:50%; height:200px;" ><h2> PRODUCT DETAILS (JSON) </h2></button></a> <!-- Button link -->
+    </div>
+  </div>
+</div>
+</center>
+<center><a href="index.html"><button style="background-color:yellow;color:black;width:10%; height:50px;" ><h2>Main-Page</h2></button></a> <!-- Button link --></center>
+
+</body>
+</html>
